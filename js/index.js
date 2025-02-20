@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             const buttonClass = index % 2 === 0 ? "button-mint" : "button-coral";
 
                             // ✅ Corrected Image Path
-                            const imageSrc = `https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/${category}/${subcategory}/${imagePath}`;
+                            const imageSrc = `assets/${category}/${subcategory}/${imagePath}`;
                             console.log(`🔹 Image Path: ${imageSrc}`);
 
                             card.innerHTML = `
@@ -155,4 +155,3 @@ function copyEmbedCode(imageSrc, title, alt) {
     navigator.clipboard.writeText(embedCode)
         .then(() => alert("✅ Embed code copied!"))
         .catch(err => console.error("❌ Failed to copy:", err));
-}
