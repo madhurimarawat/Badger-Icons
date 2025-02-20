@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Fetch the JSON data
-    fetch("https://github.com/madhurimarawat/Badger-Icons/blob/main/js/directory-structure.json")
+    fetch("https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/js/directory-structure.json")
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
