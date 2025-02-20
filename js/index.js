@@ -150,10 +150,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // ✅ Function to Copy Image Embed Code
 function copyEmbedCode(imageSrc, title, alt) {
+    // Ensure the correct GitHub raw URL format
+    const githubRawUrl = `https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/${imageSrc}`;
+
     const embedCode = `
 <div class="badger-icon">
     <a href="https://github.com/madhurimarawat/Badger-Icons" target="_blank">
-        <img src="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/${imageSrc}" title="${title}" alt="${alt}" width="100" height="100">
+        <img src="${githubRawUrl}" title="${title}" alt="${alt}" width="100" height="100">
     </a>
 </div>`;
 
