@@ -167,7 +167,7 @@ function copyEmbedCode(imageSrc, title, alt) {
 
     const embedCode = `
 <div class="badger-icon">
-    <a href="https://github.com/madhurimarawat/Badger-Icons" target="_blank">
+    <a href="https://madhurimarawat.github.io/Badger-Icons/" target="_blank">
         <img src="${githubRawUrl}" title="${title}" alt="${alt}" width="100" height="100">
     </a>
 </div>`;
