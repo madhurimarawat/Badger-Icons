@@ -7,7 +7,7 @@
 *              categories, subcategories, and images from a JSON file. The script formats 
 *              category names, generates image cards, and provides an "Embed Code" feature 
 *              for easy integration.
-* Version: 1.0
+* Version: 1.1
 * GitHub Repository: https://github.com/madhurimarawat/Badger-Icons
 * Issues/Bugs: For any script-related issues, visit the GitHub repository's 
 *              [Issues](https://github.com/madhurimarawat/Badger-Icons/issues) section.
@@ -25,6 +25,18 @@
     - **Clipboard Functionality**: Allows users to copy an HTML embed code for each image.
     - **Error Handling**: Includes checks for missing or invalid data and handles fetch 
       failures gracefully.
+* CORS Issue:
+    - **Problem**: When running locally using `file://`, browsers block cross-origin JSON 
+      requests due to **CORS (Cross-Origin Resource Sharing)** restrictions.
+    - **Solution**: The JSON file is hosted on GitHub Pages (`madhurimarawat.github.io`), 
+      ensuring proper HTTP access.
+* Local Development:
+    - **Alternative Approach**: To test locally without CORS issues, use `index-local.js`.
+    - **How it Works**: This version constructs **local paths** instead of GitHub URLs.
+    - **Limitation**: `index-local.js` should only be used locally, as it won't work 
+      on GitHub Pages or external servers.
+    - **Connecting to GitHub**: When deploying, switch back to `index.js` to fetch JSON 
+      from the GitHub repository.
 *********************************************************************************************
 */
 
