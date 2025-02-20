@@ -155,3 +155,4 @@ function copyEmbedCode(imageSrc, title, alt) {
     navigator.clipboard.writeText(embedCode)
         .then(() => alert("✅ Embed code copied!"))
         .catch(err => console.error("❌ Failed to copy:", err));
+}
