@@ -1,0 +1,172 @@
+/*
+*********************************************************************************************
+* File: index-local.js
+* Author: Madhurima Rawat
+* Date: February 20, 2025
+* Description: JavaScript functionality for the Badger-Icons platform, specifically for local 
+*              development. This version loads categories, subcategories, and images from a 
+*              locally stored JSON file instead of fetching from GitHub.
+* Version: 1.0
+* GitHub Repository: https://github.com/madhurimarawat/Badger-Icons
+* Issues/Bugs: For any script-related issues, visit the GitHub repository's 
+*              [Issues](https://github.com/madhurimarawat/Badger-Icons/issues) section.
+* Comments: This script is intended for **local testing only**. It replaces the GitHub-hosted 
+*           JSON fetch with a local file path.
+* Dependencies:
+    - **Bootstrap 4.5.2**: Provides a responsive layout and prebuilt UI components.
+    - **Font Awesome 6.0.0-beta3**: Used for icons.
+    - **Local JSON File (assets/json/directory-structure.json)**: Contains directory and 
+      image information, loaded directly from the local file system.
+* Functionality:
+    - **Local Content Loading**: Fetches and parses JSON from a local file (`assets/json/`).
+    - **Image Cards**: Generates structured cards for each image, displaying descriptions 
+      and embed options.
+    - **Clipboard Functionality**: Allows users to copy an HTML embed code for each image.
+    - **Error Handling**: Includes checks for missing or invalid data and handles fetch 
+      failures gracefully.
+* Difference from `index.js`:
+    - `index.js`: Fetches JSON from **GitHub raw URL** for production use.
+    - `index-local.js`: Loads JSON from the **local `assets/json/` folder** for offline use.
+* Local Testing:
+    - This script should be used with a **local server** (e.g., Python `http.server` or 
+      VS Code Live Server) to avoid browser security restrictions on `file://` paths.
+    - **Switch to `index.js` before deploying** to ensure GitHub Pages compatibility.
+*********************************************************************************************
+*/
+
+document.addEventListener("DOMContentLoaded", function () {
+    const imageContainer = document.querySelector(".container .row");
+
+    // Function to clean category/subcategory names
+    function formatName(name) {
+        return name
+            .replace(/[-_]/g, " ") // Remove underscores and hyphens
+            .replace(/\b\w/g, char => char.toUpperCase()); // Capitalize first letter of each word
+    }
+
+    // Fetch the JSON data
+    fetch("assets/json/directory-structure.json")
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log("✅ JSON Loaded Successfully:", data);
+
+            if (!data.directories || Object.keys(data.directories).length === 0) {
+                console.warn("⚠ No directories found in JSON.");
+                return;
+            }
+
+            for (const category in data.directories) {
+                if (category === "_description") continue; // Skip descriptions at category level
+
+                const categoryData = data.directories[category];
+                if (!categoryData || typeof categoryData !== "object") continue;
+
+                // ✅ Create a div container for category
+                const categoryContainer = document.createElement("div");
+                categoryContainer.classList.add("category-section", "col-12");
+
+                // ✅ Create H2 for Category
+                const categoryTitle = document.createElement("h2");
+                categoryTitle.textContent = formatName(category);
+                categoryTitle.classList.add("category-heading");
+                categoryContainer.appendChild(categoryTitle);
+
+                // Append category container
+                imageContainer.appendChild(categoryContainer);
+
+                for (const subcategory in categoryData) {
+                    if (subcategory === "_description") continue; // Skip category descriptions
+
+                    const subcategoryData = categoryData[subcategory];
+                    if (!subcategoryData || typeof subcategoryData !== "object") continue;
+
+                    // Fetch subcategory description
+                    const subcategoryDesc = subcategoryData["_description"] || "";
+
+                    // ✅ Create a div container for subcategory
+                    const subcategoryContainer = document.createElement("div");
+                    subcategoryContainer.classList.add("subcategory-section", "col-12");
+
+                    // ✅ Create H3 for Subcategory
+                    const subcategoryTitle = document.createElement("h3");
+                    subcategoryTitle.textContent = formatName(subcategory);
+                    subcategoryTitle.classList.add("subcategory-heading");
+                    subcategoryContainer.appendChild(subcategoryTitle);
+
+                    // ✅ Add description below subcategory title
+                    if (subcategoryDesc) {
+                        const subcategoryDescElement = document.createElement("p");
+                        subcategoryDescElement.textContent = subcategoryDesc;
+                        subcategoryDescElement.classList.add("subcategory-description");
+                        subcategoryContainer.appendChild(subcategoryDescElement);
+                    }
+
+                    // Append subcategory container
+                    imageContainer.appendChild(subcategoryContainer);
+
+                    // ✅ Process Image Files
+                    if (subcategoryData.files && Array.isArray(subcategoryData.files)) {
+                        subcategoryData.files.forEach((fileDescription, index) => {
+                            if (!fileDescription) return;
+
+                            // Extract filename and description
+                            const [imagePath, imageDesc] = fileDescription.split(" (");
+                            const cleanedImageDesc = imageDesc ? imageDesc.replace(")", "") : "";
+
+                            // Create a card div
+                            const card = document.createElement("div");
+                            card.classList.add("col-md-4", "mb-3", "px-1");
+
+                            const buttonClass = index % 2 === 0 ? "button-mint" : "button-coral";
+
+                            // ✅ Corrected Image Path
+                            const imageSrc = `assets/${category}/${subcategory}/${imagePath}`;
+                            console.log(`🔹 Image Path: ${imageSrc}`);
+
+                            card.innerHTML = `
+    <div class="card text-center">
+        <a href="https://github.com/madhurimarawat/Badger-Icons" target="_blank">
+            <img src="${imageSrc}" title="${cleanedImageDesc}" alt="${imagePath}" width="50" height="50">
+        </a>
+        <div class="card-body">
+            <p class="image-description">${cleanedImageDesc}</p>
+            <button class="${buttonClass}" onclick="copyEmbedCode('${imageSrc}', '${cleanedImageDesc}', '${imagePath}')">Copy Embed Code</button>
+        </div>
+    </div>
+`;
+
+                            // Append each card
+                            imageContainer.appendChild(card);
+                        });
+                    }
+
+                    // ✅ Append Separator Below Each Subcategory
+                    const separator = document.createElement("hr");
+                    imageContainer.appendChild(separator);
+                }
+            }
+        })
+        .catch(error => console.error("❌ Error loading JSON:", error));
+});
+
+// ✅ Function to Copy Image Embed Code
+function copyEmbedCode(imageSrc, title, alt) {
+    // Ensure the correct GitHub raw URL format
+    const githubRawUrl = `https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/${imageSrc}`;
+
+    const embedCode = `
+<div class="badger-icon">
+    <a href="https://github.com/madhurimarawat/Badger-Icons" target="_blank">
+        <img src="${githubRawUrl}" title="${title}" alt="${alt}" width="100" height="100">
+    </a>
+</div>`;
+
+    navigator.clipboard.writeText(embedCode)
+        .then(() => alert("✅ Embed code copied! You can now paste it into your content."))
+        .catch(err => console.error("❌ Failed to copy:", err));
+}
