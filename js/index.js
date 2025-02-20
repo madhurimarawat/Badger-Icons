@@ -119,8 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             const buttonClass = index % 2 === 0 ? "button-mint" : "button-coral";
 
                             // ✅ Corrected Image Path
-                            const imageSrc = `https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/${category}/${subcategory}/${imagePath}`;
-`;
+                            const imageSrc = `https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/${category}/${subcategory}/${imagePath}`;
                             console.log(`🔹 Image Path: ${imageSrc}`);
 
                             card.innerHTML = `
