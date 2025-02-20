@@ -1,0 +1,471 @@
+/*
+*********************************************************************************************
+* File: index.css
+* Author: Madhurima Rawat
+* Date: February 20, 2025
+* Description: Styling file for the Badger-Icons platform, enhancing UI with pastel color 
+*              gradients, responsive layouts, and smooth animations. The design maintains a 
+*              clean, modern aesthetic while ensuring accessibility and usability across devices.
+* Version: 1.0
+* GitHub Repository: https://github.com/madhurimarawat/Badger-Icons
+* Issues/Bugs: For any styling-related issues, visit the GitHub repository's 
+*              [Issues](https://github.com/madhurimarawat/Badger-Icons/issues) section.
+* Comments: This CSS file includes Bootstrap modifications, custom animations, and a 
+*           well-structured grid layout for icons and categories.
+* Dependencies:
+    - **Bootstrap 4.5.2**: Provides responsive utilities and prebuilt UI components.
+    - **Font Awesome 6.0.0-beta3**: Used for scalable icons and enhanced UI elements.
+    - **Google Fonts - Montserrat**: Ensures a clean and professional typography style.
+* Design Notes:
+    - **Backgrounds**: Uses soft pastel gradients for a visually appealing look.
+    - **Navigation Bar**: Styled with a fixed position, soft color transitions, and responsive adjustments.
+    - **Cards & Buttons**: Custom hover effects, shadows, and rounded borders for a modern UI feel.
+    - **Carousel Styling**: Ensures proper scaling of images while maintaining smooth transitions.
+    - **Responsive Adjustments**: Uses media queries for optimal display on all screen sizes.
+*********************************************************************************************
+*/
+
+/* ========================= */
+/* 🌟 GENERAL STYLING */
+/* ========================= */
+
+/* Background and Font */
+body {
+    background: linear-gradient(to right, #a8edea, #fed6e3);
+    /* Soft pastel gradient */
+    font-family: 'Arial', sans-serif;
+}
+
+.about-card {
+    background-color: #fdf6e3;
+    /* Soft cream background like other cards */
+    color: #333;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    margin: 20px auto;
+    margin-bottom: -20px;
+
+}
+
+/* Add a header to match category styles */
+.about-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(255, 154, 158, 0.2);
+    /* Light pastel pink */
+}
+
+/* Description styling */
+.about-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+}
+
+/* 🌸 Soft Pastel Link Styling */
+.about-card a {
+    color: #ff7eb3;
+    /* Soft pastel pink */
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+    padding: 4px 6px;
+    border-radius: 5px;
+}
+
+.about-card a:hover {
+    color: white;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    /* Smooth pastel gradient */
+    text-decoration: none;
+    padding: 4px 8px;
+}
+
+/* Hover effect */
+.about-card:hover {
+    transform: scale(1.03);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .about-card {
+        max-width: 90%;
+    }
+}
+
+/* ========================= */
+/* 🔹 NAVIGATION BAR */
+/* ========================= */
+
+.navbar {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    /* Soft pink gradient */
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: nowrap;
+    /* Prevent stacking */
+}
+
+/* Left Logo */
+.logo {
+    width: 70px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Centered Brand Name */
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    /* Prevents line breaks */
+    max-width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Adds "..." if text overflows */
+}
+
+/* GitHub Button (Right Side) */
+.ms-auto {
+    margin-left: auto;
+    flex-shrink: 0;
+    /* Prevents shrinking */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .navbar-center {
+        font-size: 18px;
+        max-width: 45%;
+    }
+
+    .tool-button {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 35px;
+    }
+}
+
+/* Extra Small Screens */
+@media (max-width: 480px) {
+    .navbar-center {
+        font-size: 16px;
+        max-width: 40%;
+    }
+
+    .logo {
+        width: 40px;
+        height: 30px;
+    }
+
+    .tool-button {
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+}
+
+/* ========================= */
+/* 🎨 RESPONSIVE TEXT SWITCHING */
+/* ========================= */
+
+/* Default: Show full text */
+.full-text {
+    display: inline;
+}
+
+.medium-text,
+.short-text {
+    display: none;
+}
+
+/* Medium Screens: Show only "Badger" */
+@media (max-width: 992px) {
+    .full-text {
+        display: none;
+    }
+
+    .medium-text {
+        display: inline;
+    }
+}
+
+/* Small Screens: Show "Badger - Tools & Icons" */
+@media (max-width: 768px) {
+    .medium-text {
+        display: none;
+    }
+
+    .short-text {
+        display: inline;
+    }
+}
+
+/* ========================= */
+/* 🎭 TOOL BUTTON STYLING */
+/* ========================= */
+
+.tool-button {
+    display: inline-block;
+    background-color: #4a4a4a;
+    /* Pastel charcoal */
+    color: wheat;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.tool-button:hover {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    color: #ffffff;
+}
+
+/* ========================= */
+/* 🖼️ IMAGE CAROUSEL */
+/* ========================= */
+
+.carousel-inner img {
+    width: 100%;
+    height: 400px;
+    /* Fixed height */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: 250px;
+        /* Smaller height for mobile */
+    }
+}
+
+/* ========================= */
+/* 👣 FOOTER */
+/* ========================= */
+
+.footer {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* ========================= */
+/* 📦 CARD STYLING */
+/* ========================= */
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fdf6e3 !important;
+    /* Soft cream */
+    width: 100%;
+    max-width: 300px;
+    height: 400px;
+    /* Fixed height */
+    margin: 10px auto;
+}
+
+/* Ensuring uniform image size */
+.card img {
+    width: 100%;
+    height: 250px;
+}
+
+/* Centering button inside card */
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 50%;
+        /* Force 2 cards per row */
+        max-width: 50%;
+    }
+}
+
+/* ========================= */
+/* 🎨 PASTEL HEADING STYLES */
+/* ========================= */
+
+/* Category and Subcategory Headings */
+.category-heading,
+.subcategory-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+    background: rgba(255, 154, 158, 0.2);
+    /* Light pastel pink */
+}
+
+.subcategory-heading {
+    font-size: 22px;
+    background: rgba(168, 237, 234, 0.2);
+    /* Light pastel blue */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Descriptions */
+.subcategory-description,
+.image-description {
+    font-size: 16px;
+    color: #444;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.button-mint {
+    background-color: #a8edea;
+    border-color: #ff9a9e;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(168, 237, 234, 0.5);
+}
+
+.button-coral {
+    background-color: #ff9a9e;
+    border-color: #a8edea;
+    color: white;
+    box-shadow: 0 4px 6px rgba(255, 154, 158, 0.5);
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* ========================= */
+/* 📌 BUTTON STYLING */
+/* ========================= */
+
+button {
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid;
+    transition: all 0.3s ease-in-out;
+    width: 90%;
+    max-width: 200px;
+}
+
+/* Mint Button */
+.button-mint {
+    background-color: #a8edea;
+    border-color: #ff9a9e;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(168, 237, 234, 0.5);
+}
+
+.button-mint:hover {
+    background-color: #ff9a9e;
+    border-color: #a8edea;
+    color: white;
+}
+
+/* Coral Button */
+.button-coral {
+    background-color: #ff9a9e;
+    border-color: #a8edea;
+    color: white;
+    box-shadow: 0 4px 6px rgba(255, 154, 158, 0.5);
+}
+
+.button-coral:hover {
+    background-color: #a8edea;
+    border-color: #ff9a9e;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        max-width: 100%;
+        height: 400px;
+        /* Ensures all cards have the same height */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .card img {
+        height: 200px;
+        /* Ensures uniform image size */
+        object-fit: cover;
+        /* Prevents distortion */
+    }
+
+    .card-body {
+        flex-grow: 1;
+        /* Allows content to expand but remain uniform */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        /* Pushes button to the bottom */
+        width: 100%;
+    }
+
+    .image-description {
+        flex-grow: 1;
+        /* Ensures descriptions take equal space, keeping buttons aligned */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    button {
+        width: 90%;
+        /* Keeps buttons uniform */
+        max-width: 200px;
+        margin-top: auto;
+        /* Ensures all buttons align at the same position */
+    }
+}
