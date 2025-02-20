@@ -148,11 +148,16 @@ document.addEventListener("DOMContentLoaded", function () {
         .catch(error => console.error("❌ Error loading JSON:", error));
 });
 
-// ✅ Function to Copy Image Link
+// ✅ Function to Copy Image Embed Code
 function copyEmbedCode(imageSrc, title, alt) {
-    const embedCode = `<a href="https://github.com/madhurimarawat/Badger-Icons"><img src="${imageSrc}" title="${title}" alt="${alt}" width="50" height="50"></a>`;
+    const embedCode = `
+<div class="badger-icon">
+    <a href="https://github.com/madhurimarawat/Badger-Icons" target="_blank">
+        <img src="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/${imageSrc}" title="${title}" alt="${alt}" width="100" height="100">
+    </a>
+</div>`;
 
     navigator.clipboard.writeText(embedCode)
-        .then(() => alert("✅ Embed code copied!"))
+        .then(() => alert("✅ Embed code copied! You can now paste it into your content."))
         .catch(err => console.error("❌ Failed to copy:", err));
 }
