@@ -1,14 +1,14 @@
-## 📝 Description
+## 📝 Description  
 
-<!-- Describe the changes in this PR. Mention the issue number if applicable. -->
+<!-- Describe the changes in this PR. Mention the issue number if applicable. -->  
 
-Fixes: # (issue number)
+Fixes: # (issue number)  
 
-🔹 **Note:** We have various issue templates. Please **open an issue first** using the appropriate [Issue Template](https://github.com/madhurimarawat/Badger-Icons/issues) before submitting a PR. This makes it easier to track and merge changes.
+🔹 **Note:** We have various issue templates. Please **open an issue first** using the appropriate [Issue Template](https://github.com/madhurimarawat/Badger-Icons/issues) before submitting a PR. This makes it easier to track and merge changes.  
 
-## ✅ Changes Made
+## ✅ Changes Made  
 
-<!-- List major changes made in this PR. -->
+<!-- List major changes made in this PR. -->  
 
 - [ ] Feature added  
 - [ ] Bug fixed  
@@ -17,30 +17,34 @@ Fixes: # (issue number)
 - [ ] Example Usage Submission: [Example Usage Template](https://github.com/madhurimarawat/Badger-Icons/blob/main/.github/ISSUE_TEMPLATE/example-usage-submission.md)  
 - [ ] New Icon Request: [New Icon Request Template](https://github.com/madhurimarawat/Badger-Icons/blob/main/.github/ISSUE_TEMPLATE/new-icon-request.md)  
 
-## 🔍 Screenshots (if applicable)
+> ⚠️ **Note:** GitHub checkboxes `[ ]` sometimes don't render properly in certain views. If that happens, just use ✅ for completed tasks and ❌ for pending ones.  
 
-<!-- Add screenshots or GIFs to show visual changes. -->
+## 🔍 Screenshots (if applicable)  
 
-## 🚀 How to Test
+<!-- Add screenshots or GIFs to show visual changes. -->  
 
-<!-- Provide steps to test your changes. -->
+## 🚀 How to Test  
+
+<!-- Provide steps to test your changes. -->  
 
 Simply run the project locally using:  
 🔹 **[Localhost Setup Guide](https://github.com/madhurimarawat/Badger-Icons/blob/main/localhost-setup.md)**  
 
 If your **icon or changes are displayed correctly**, then you're good to go! 🚀  
 
-## 🤝 Contributor Checklist
+## 🔔 Reminders Before Submitting  
 
-- [ ] I have read the [Contributing Guidelines](CONTRIBUTING.md).  
-- [ ] My code follows the project style guidelines.  
-- [ ] I have tested my changes thoroughly.  
-- [ ] I have updated documentation if necessary.  
+- [ ] **Check All Relevant Boxes** – Ensure you've marked everything applicable under "Changes Made" and "Contributor Checklist."  
+- [ ] **Update `README.md`** – If applicable, update the documentation to reflect your changes.  
+- [ ] **Modify the JSON File (if needed)** – If adding or updating icons, ensure the respective JSON file is correctly structured.  
+- [ ] **If You Missed Something, It's Okay!** – If you're unsure or couldn't complete something, just mention it in the PR. I'll handle the rest. Just be clear about what's left. 😊  
 
-## 🔗 Related Issues / PRs
+> 💡 **Alternative to Checkboxes:** If checkboxes aren't working, just mark completed tasks with ✅ and pending ones with ❌.  
 
-<!-- Link related issues or PRs here. -->
+## 🔗 Related Issues / PRs  
 
-## 📢 Additional Notes
+<!-- Link related issues or PRs here. -->  
 
-<!-- Any extra details, concerns, or considerations. -->
+## 📢 Additional Notes  
+
+<!-- Any extra details, concerns, or considerations. -->  
