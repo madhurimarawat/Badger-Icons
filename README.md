@@ -70,9 +70,12 @@ A collection of beautifully styled icons and logos for job roles, tools, and pro
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/madhurimarawat/Badger-Icons&count_bg=%23FF6B8B&title_bg=%235A9DF9&icon=github.svg&icon_color=%23FFFFFF&title=Visitors&edge_flat=true" alt="Visitors">
 </p>
 
-
 <p align="center">
-  <img src="images/badger-logo.png" alt="Badger Icons Logo" width="150">
+  <a href="https://madhurimarawat.github.io/Badger-Icons/">
+    <img src="website_snapshots/website_2.png" alt="Badger Icons Logo" height="600px">
+    <img src="website_snapshots/website_1.png" alt="Badger Icons Logo" height="600px">
+    <img src="website_snapshots/website_working.gif" alt="Badger Icons Logo" height="400px">
+  </a>
 </p>
 
 ---
@@ -91,6 +94,43 @@ Perfect for **developers, designers, and educators** to integrate into projects 
 
 ---
 
+## 📌 Icons & Logos  
+
+### 🏢 Job Roles  
+🔗 [View all Job Roles Icons](https://github.com/madhurimarawat/Badger-Icons/tree/main/assets/job_roles)  
+
+| Job Role         | Transparent Icon | Icon | Transparent Logo | Logo |
+|-----------------|----------------|------|------------------|------|
+| **Data Analyst** | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_analyst/concept-icon-1-transparent.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_analyst/concept-icon-1-transparent.png" width="80" height="80"></a> | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_analyst/concept-icon-1.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_analyst/concept-icon-1.png" width="80" height="80"></a> | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_analyst/concept-logo-1-transparent.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_analyst/concept-logo-1-transparent.png" width="80" height="80"></a> | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_analyst/concept-logo-1.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_analyst/concept-logo-1.png" width="80" height="80"></a> |
+| **Data Engineer** | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_engineer/concept-icon-1-transparent.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_engineer/concept-icon-1-transparent.png" width="80" height="80"></a> <br> <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_engineer/concept-icon-2-transparent.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_engineer/concept-icon-2-transparent.png" width="80" height="80"></a> | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_engineer/concept-icon-1.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_engineer/concept-icon-1.png" width="80" height="80"></a> <br> <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_engineer/concept-icon-2.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_engineer/concept-icon-2.png" width="80" height="80"></a> | - | - |
+| **Data Scientist** | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_scientist/concept-icon-1-transparent.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_scientist/concept-icon-1-transparent.png" width="80" height="80"></a> <br> <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_scientist/concept-icon-2-transparent.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_scientist/concept-icon-2-transparent.png" width="80" height="80"></a> <br> <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_scientist/concept-icon-3-transparent.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_scientist/concept-icon-3-transparent.png" width="80" height="80"></a> | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_scientist/concept-icon-1.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_scientist/concept-icon-1.png" width="80" height="80"></a> <br> <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_scientist/concept-icon-2.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_scientist/concept-icon-2.png" width="80" height="80"></a> <br> <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_scientist/concept-icon-3.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/data_scientist/concept-icon-3.png" width="80" height="80"></a> | - | - |
+| **Network Engineer** | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/network_engineer/concept-icon-1-transparent.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/network_engineer/concept-icon-1-transparent.png" width="80" height="80"></a> | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/network_engineer/concept-icon-1.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/job_roles/network_engineer/concept-icon-1.png" width="80" height="80"></a> | - | - |
+
+
+---
+
+### 💻 Programming Languages  
+🔗 [View all Programming Language Icons](https://github.com/madhurimarawat/Badger-Icons/tree/main/assets/programming_languages)  
+
+
+| Programming Language | Transparent Icon | Icon | Transparent Logo | Logo |
+|---------------------|----------------|------|------------------|------|
+| **C** | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c/concept-icon-1-transparent.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c/concept-icon-1-transparent.png" width="80" height="80"></a> | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c/concept-icon-1.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c/concept-icon-1.png" width="80" height="80"></a> | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c/concept-logo-1-transparent.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c/concept-logo-1-transparent.png" width="80" height="80"></a> <br> <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c/concept-logo-2-transparent.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c/concept-logo-2-transparent.png" width="80" height="80"></a> | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c/concept-logo-1.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c/concept-logo-1.png" width="80" height="80"></a> <br> <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c/concept-logo-2.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c/concept-logo-2.png" width="80" height="80"></a> |
+| **C++** | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c++/concept-icon-1-transparent.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c++/concept-icon-1-transparent.png" width="80" height="80"></a> <br> <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c++/concept-icon-2-transparent.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c++/concept-icon-2-transparent.png" width="80" height="80"></a> | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c++/concept-icon-1.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c++/concept-icon-1.png" width="80" height="80"></a> <br> <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c++/concept-icon-2.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c++/concept-icon-2.png" width="80" height="80"></a> | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c++/concept-logo-1-transparent.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c++/concept-logo-1-transparent.png" width="80" height="80"></a> <br> <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c++/concept-logo-2-transparent.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c++/concept-logo-2-transparent.png" width="80" height="80"></a> | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c++/concept-logo-1.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c++/concept-logo-1.png" width="80" height="80"></a> <br> <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c++/concept-logo-2.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/c++/concept-logo-2.png" width="80" height="80"></a> |
+| **Python** | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/python/concept-icon-1-transparent.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/python/concept-icon-1-transparent.png" width="80" height="80"></a> <br> <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/python/concept-icon-2-transparent.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/python/concept-icon-2-transparent.png" width="80" height="80"></a> | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/python/concept-icon-1.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/python/concept-icon-1.png" width="80" height="80"></a> <br> <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/python/concept-icon-2.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/python/concept-icon-2.png" width="80" height="80"></a> | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/python/concept-logo-1-transparent.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/python/concept-logo-1-transparent.png" width="80" height="80"></a> | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/python/concept-logo-1.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/programming_languages/python/concept-logo-1.png" width="80" height="80"></a> |
+
+---
+
+### 📚 Subjects  
+🔗 [View all Subject Icons](https://github.com/madhurimarawat/Badger-Icons/tree/main/assets/subjects)  
+
+| Subject | Transparent Icon | Icon |
+|---------|----------------|------|
+| **Algorithmic Gaming Theory** | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/subjects/algorithmic-gaming-theory/concept-icon-1-transparent.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/subjects/algorithmic-gaming-theory/concept-icon-1-transparent.png" width="80" height="80"></a> | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/subjects/algorithmic-gaming-theory/concept-icon-1.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/subjects/algorithmic-gaming-theory/concept-icon-1.png" width="80" height="80"></a> |
+| **Management Information System** | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/subjects/management-information-system/concept-icon-1-transparent.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/subjects/management-information-system/concept-icon-1-transparent.png" width="80" height="80"></a> | <a href="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/subjects/management-information-system/concept-icon-1.png"><img src="https://github.com/madhurimarawat/Badger-Icons/blob/main/assets/subjects/management-information-system/concept-icon-1.png" width="80" height="80"></a> |
+
+---
+
 ## 🌟 Features  
 ✅ **Open Source** - Free to use and contribute!  
 ✅ **High-Quality Icons** - Pixel-perfect and beautifully styled.  
@@ -101,27 +141,70 @@ Perfect for **developers, designers, and educators** to integrate into projects 
 ---
 
 ## 📂 Directory Structure  
-📦 Badger-Icons  
- ┣ 📂 assets/                # Icons & Logos stored here  
- ┣ 📂 css/                   # Stylesheets  
- ┣ 📂 js/                    # JavaScript functionality  
- ┣ 📜 index.html             # Main Website  
- ┣ 📜 README.md              # Documentation  
- ┗ 📜 LICENSE                # Open Source License
 
+```markdown
+📦 Badger-Icons – Main project directory  
+├── 📁 assets – Stores icons, logos, and categorized resources  
+│   ├── 📂 databases – Database-related icons  
+│   ├── 📂 frameworks – Icons for various frameworks  
+│   ├── 📂 job_roles – Icons representing different tech job roles  
+│   │   ├── 📂 data_analyst – Icons for Data Analyst role  
+│   │   ├── 📂 data_engineer – Icons for Data Engineer role  
+│   │   ├── 📂 data_scientist – Icons for Data Scientist role  
+│   │   └── 📂 network_engineer – Icons for Network Engineer role  
+│   ├── 📂 json – Stores structured directory metadata in JSON format  
+│   ├── 📂 programming_languages – Icons categorized by programming languages  
+│   │   ├── 📂 C – Icons for C language  
+│   │   ├── 📂 C++ – Icons for C++ language  
+│   │   └── 📂 Python – Icons for Python language  
+│   ├── 📂 subjects – Icons for different academic/technical subjects  
+│   │   ├── 📂 algorithmic-gaming-theory – Icons for gaming theory concepts  
+│   │   └── 📂 management-information-system – Icons for MIS topics  
+│   └── 📂 tools – Icons for various software tools  
+├── 🎨 css – Stylesheets for the website  
+│   └── index.css – Main stylesheet for styling  
+├── 🖼️ images – General website images and illustrations  
+│   ├── badger-logo.png – Project logo  
+│   ├── banner.png – Website banner  
+│   ├── illustration_1.png – Illustration for UI  
+│   ├── illustration_2.png – Another illustration  
+│   └── illustration_3.png – Additional UI artwork  
+├── 🌐 index.html – Main HTML file for the website  
+├── 📜 README.md – Project documentation and details  
+├── 📜 LICENSE – Open-source license information  
+├── ⚡ js – JavaScript files for website functionality  
+│   ├── index-local.js – Local JS file for testing  
+│   └── index.js – Main JavaScript file  
+├── 📝 localhost-setup.md – Guide for setting up the project locally  
+└── 📸 website_snapshots – Screenshots of the website  
+    ├── website_1.png – Snapshot 1  
+    ├── website_2.png – Snapshot 2  
+    ├── website_3.png – Snapshot 3  
+    ├── website_4.png – Snapshot 4  
+    ├── website_5.png – Snapshot 5  
+    ├── website_6.png – Snapshot 6  
+    ├── website_7.png – Snapshot 7  
+    ├── website_8.png – Snapshot 8  
+    └── website_working.gif – Animated view of the working site  
+```
 
 ---
 
 ## 📸 Example Usage  
 
-| **Snapshot** | **Project Link** |
-|-------------|----------------|
-| <img src="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/website_snapshots/website_1.png" width="250"> | [Example Project](https://madhurimarawat.github.io/Badger-Icons/) |
-| Add yours here! | [Submit your usage](https://github.com/madhurimarawat/Badger-Icons/issues) |
+🔗 [Submit your usage](https://github.com/madhurimarawat/Badger-Icons/issues) using our [Example Usage Submission Template](https://github.com/madhurimarawat/Badger-Icons/blob/main/.github/ISSUE_TEMPLATE/example-usage-submission.md)! 🚀  
+
+| **Snapshot** | **Project Name** | **Description** | **Project Link** |
+|-------------|----------------|----------------|----------------|
+| <img src="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/website_snapshots/website_1.png" width="250"> | Example Project | Showcasing Badger-Icons in a website layout. | [View Project](https://madhurimarawat.github.io/Badger-Icons/) |
+| Add yours here! | Your Project Name | Briefly describe how you used Badger-Icons. | [Submit here](https://github.com/madhurimarawat/Badger-Icons/issues) |
 
 ---
 
 ## 👥 Contributors  
+
+We appreciate all contributions! Want to contribute? Check out:  
+📜 [Contribution Guidelines](https://github.com/madhurimarawat/Badger-Icons/blob/main/CONTRIBUTING.md) | 📩 [Issue Templates](https://github.com/madhurimarawat/Badger-Icons/blob/main/.github/ISSUE_TEMPLATE) | 🔄 [Pull Request Template](https://github.com/madhurimarawat/Badger-Icons/blob/main/.github/PULL_REQUEST_TEMPLATE.md)  
 
 <table>
   <tr>
@@ -140,7 +223,26 @@ Perfect for **developers, designers, and educators** to integrate into projects 
       <br />🎨 Icons & Design
     </td>
   </tr>
-</table>
+</table>    
+
+---
+
+## Website Design  
+
+Below are snapshots showcasing the **Badger Icons** website:  
+
+<p align="center">
+  <a href="https://madhurimarawat.github.io/Badger-Icons/">
+    <img src="website_snapshots/website_3.png" alt="Website Snapshot 3" height="600px">
+    <img src="website_snapshots/website_4.png" alt="Website Snapshot 4" height="600px">
+    <img src="website_snapshots/website_5.png" alt="Website Snapshot 5" height="600px">
+    <img src="website_snapshots/website_6.png" alt="Website Snapshot 6" height="600px">
+    <img src="website_snapshots/website_7.png" alt="Website Snapshot 7" height="600px">
+    <img src="website_snapshots/website_8.png" alt="Website Snapshot 8" height="600px">
+  </a>
+</p>  
+
+This section provides a glimpse into the **Badger Icons** interface, showcasing its design and functionality. Click on any image to explore the website live. 🚀
 
 ---
 
@@ -151,5 +253,3 @@ Perfect for **developers, designers, and educators** to integrate into projects 
 📫 How to reach me:  &nbsp; [![Linkedin Badge](https://img.shields.io/badge/-madhurima-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/madhurima-rawat/) &nbsp; &nbsp;
 <a href ="mailto:rawatmadhurima@gmail.com"><img src="https://github.com/madhurimarawat/Machine-Learning-Using-Python/assets/105432776/b6a0873a-e961-42c0-8fbf-ab65828c961a" height=35 width=30 title="Mail Illustration" alt="Mail Illustration📫" > </a><br><br>
 - **Contribute and Discuss:** Feel free to open <a href= "https://github.com/madhurimarawat/Badger-Icons/issues">issues 🐛</a>, submit <a href = "https://github.com/madhurimarawat/Badger-Icons/pulls">pull requests 🛠️</a>, or start <a href = "https://github.com/madhurimarawat/Badger-Icons/discussions">discussions 💬</a> to help improve this repository!
-
-
