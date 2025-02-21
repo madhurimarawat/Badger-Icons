@@ -3,34 +3,40 @@
 * File: index-local.js
 * Author: Madhurima Rawat
 * Date: February 20, 2025
-* Description: JavaScript functionality for the Badger-Icons platform, specifically for local 
-*              development. This version loads categories, subcategories, and images from a 
-*              locally stored JSON file instead of fetching from GitHub.
-* Version: 1.0
+* Description: JavaScript functionality for the Badger-Icons platform, dynamically loading 
+*              categories, subcategories, and images from a JSON file. The script formats 
+*              category names, generates image cards, and provides an "Embed Code" feature 
+*              for easy integration.
+* Version: 1.1
 * GitHub Repository: https://github.com/madhurimarawat/Badger-Icons
 * Issues/Bugs: For any script-related issues, visit the GitHub repository's 
 *              [Issues](https://github.com/madhurimarawat/Badger-Icons/issues) section.
-* Comments: This script is intended for **local testing only**. It replaces the GitHub-hosted 
-*           JSON fetch with a local file path.
+* Comments: This script efficiently loads and structures data, ensuring a responsive and 
+*           user-friendly experience.
 * Dependencies:
     - **Bootstrap 4.5.2**: Provides a responsive layout and prebuilt UI components.
     - **Font Awesome 6.0.0-beta3**: Used for icons.
-    - **Local JSON File (assets/json/directory-structure.json)**: Contains directory and 
-      image information, loaded directly from the local file system.
+    - **JSON Data File (directory-structure.json)**: Contains directory and image information.
 * Functionality:
-    - **Local Content Loading**: Fetches and parses JSON from a local file (`assets/json/`).
+    - **Dynamic Content Loading**: Fetches and parses JSON to populate categories, 
+      subcategories, and images dynamically.
     - **Image Cards**: Generates structured cards for each image, displaying descriptions 
       and embed options.
     - **Clipboard Functionality**: Allows users to copy an HTML embed code for each image.
     - **Error Handling**: Includes checks for missing or invalid data and handles fetch 
       failures gracefully.
-* Difference from `index.js`:
-    - `index.js`: Fetches JSON from **GitHub raw URL** for production use.
-    - `index-local.js`: Loads JSON from the **local `assets/json/` folder** for offline use.
-* Local Testing:
-    - This script should be used with a **local server** (e.g., Python `http.server` or 
-      VS Code Live Server) to avoid browser security restrictions on `file://` paths.
-    - **Switch to `index.js` before deploying** to ensure GitHub Pages compatibility.
+* CORS Issue:
+    - **Problem**: When running locally using `file://`, browsers block cross-origin JSON 
+      requests due to **CORS (Cross-Origin Resource Sharing)** restrictions.
+    - **Solution**: The JSON file is hosted on GitHub Pages (`madhurimarawat.github.io`), 
+      ensuring proper HTTP access.
+* Local Development:
+    - **Alternative Approach**: To test locally without CORS issues, use `index-local.js`.
+    - **How it Works**: This version constructs **local paths** instead of GitHub URLs.
+    - **Limitation**: `index-local.js` should only be used locally, as it won't work 
+      on GitHub Pages or external servers.
+    - **Connecting to GitHub**: When deploying, switch back to `index.js` to fetch JSON 
+      from the GitHub repository.
 *********************************************************************************************
 */
 
@@ -161,7 +167,7 @@ function copyEmbedCode(imageSrc, title, alt) {
 
     const embedCode = `
 <div class="badger-icon">
-    <a href="https://github.com/madhurimarawat/Badger-Icons" target="_blank">
+    <a href="https://madhurimarawat.github.io/Badger-Icons/" target="_blank">
         <img src="${githubRawUrl}" title="${title}" alt="${alt}" width="100" height="100">
     </a>
 </div>`;
