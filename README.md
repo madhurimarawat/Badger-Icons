@@ -139,6 +139,23 @@ Perfect for **developers, designers, and educators** to integrate into projects 
 
 ---
 
+### 🌐 Website Status 
+
+| Status | Transparent Logo 1 | Logo 1 | Transparent Logo 2 | Logo 2 |
+|--------|-------------------|--------|-------------------|--------|
+| **Active** | <a href="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/active/concept-logo-1-transparent.png"><img src="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/active/concept-logo-1-transparent.png" width="80" height="80"></a> | <a href="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/active/concept-logo-1.png"><img src="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/active/concept-logo-1.png" width="80" height="80"></a> | <a href="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/active/concept-logo-2-transparent.png"><img src="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/active/concept-logo-2-transparent.png" width="80" height="80"></a> | <a href="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/active/concept-logo-2.png"><img src="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/active/concept-logo-2.png" width="80" height="80"></a> |
+
+### ❌ Error Pages  
+
+| Error Code | Transparent Logo | Logo |
+|------------|----------------|------|
+| **403 Forbidden** | <a href="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/error/403_forbidden/concept-logo-1-transparent.png"><img src="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/error/403_forbidden/concept-logo-1-transparent.png" width="80" height="80"></a> | <a href="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/error/403_forbidden/concept-logo-1.png"><img src="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/error/403_forbidden/concept-logo-1.png" width="80" height="80"></a> |
+| **500 Internal Server Error** | <a href="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/error/500_internal_server/concept-logo-1-transparent.png"><img src="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/error/500_internal_server/concept-logo-1-transparent.png" width="80" height="80"></a> | <a href="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/error/500_internal_server/concept-logo-1.png"><img src="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/error/500_internal_server/concept-logo-1.png" width="80" height="80"></a> |
+| **CORS Error** | <a href="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/error/cors/concept-logo-1-transparent.png"><img src="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/error/cors/concept-logo-1-transparent.png" width="80" height="80"></a> | <a href="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/error/cors/concept-logo-1.png"><img src="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/error/cors/concept-logo-1.png" width="80" height="80"></a> |
+| **404 Not Found** | <a href="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/error/error_404/concept-logo-1-transparent.png"><img src="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/error/error_404/concept-logo-1-transparent.png" width="80" height="80"></a> | <a href="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/error/error_404/concept-logo-1.png"><img src="https://raw.githubusercontent.com/madhurimarawat/Badger-Icons/main/assets/website_status/error/error_404/concept-logo-1.png" width="80" height="80"></a> |
+
+---
+
 ## 🌟 Features  
 ✅ **Open Source** - Free to use and contribute!  
 ✅ **High-Quality Icons** - Pixel-perfect and beautifully styled.  
