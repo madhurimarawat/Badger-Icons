@@ -19,6 +19,16 @@
         ]
       }
     },
+    "greetings": {
+      "_description": "Icons and logos for different greetings.",
+      "thank_you": {
+        "_description": "Icons and logos representing the thank greeting.",
+        "files": [
+          "concept-icon-1-transparent.png (Transparent icon for thank you greeting)",
+          "concept-icon-1.png (Standard icon for morning greeting)"
+        ]
+      }
+    },
     "job_roles": {
       "_description": "Icons and logos for different job roles in tech.",
       "ai_research": {
@@ -71,6 +81,23 @@
         ]
       }
     },
+    "open_source" : {
+      "_description": "Icons and logos for open-source projects.",
+      "contributor": {
+        "_description": "Icons and logos for Contributors.",
+        "files": [
+          "concept-logo-1-transparent.png (Transparent Logo for Contribution)",
+          "concept-logo-1.png (Logo for contribution)"
+        ]
+      },
+      "github": {
+        "_description": "Icons and logos for GitHub.",
+        "files": [
+            "concept-logo-1-transparent.png (Transparent Logo for GitHub)",
+            "concept-logo-2-transparent.png (Transparent Logo for GitHub)"
+          ]
+      }
+    },
     "programming_languages": {
       "_description": "Icons and logos for programming languages.",
       "c": {
@@ -107,6 +134,13 @@
           "concept-logo-1-transparent.png (Transparent Logo for Python)",
           "concept-logo-1.png (Logo for Python)"
         ]
+      },
+      "ruby": {
+        "_description": "Icons and logos for Ruby programming language.",
+        "files": [
+          "concept-logo-1-transparent.png (Transparent Logo for Ruby)",
+          "concept-logo-1.png (Logo for Ruby)"
+        ]
       }
     },
     "subjects": {
@@ -125,6 +159,49 @@
           "concept-icon-1.png (Icon for Management Information System)"
         ]
       }
+    },
+  "website_status": {
+    "_description": "Status of the website.",
+    "active": {
+      "_description": "Status of the website is active.",
+      "files": [
+        "concept-logo-1-transparent.png (Transparent Logo for active status)",
+        "concept-logo-1.png (Logo for active status)",
+        "concept-logo-2-transparent.png (Transparent Logo for active status)",
+        "concept-logo-2.png (Logo for active status)"
+      ]
+    },
+    "error": {
+      "_description": "Error pages and their respective icons.",
+      "403_forbidden": {
+        "_description": "403 Forbidden error page.",
+        "files": [
+          "concept-logo-1-transparent.png (Transparent Logo for 403 Forbidden)",
+          "concept-logo-1.png (Logo for 403 Forbidden)"
+        ]
+      },
+      "500_internal_server": {
+        "_description": "500 Internal Server Error page.",
+        "files": [
+          "concept-logo-1-transparent.png (Transparent Logo for 500 Internal Server Error)",
+          "concept-logo-1.png (Logo for 500 Internal Server Error)"
+        ]
+      },
+      "cors": {
+        "_description": "CORS error page.",
+        "files": [
+          "concept-logo-1-transparent.png (Transparent Logo for CORS Error)",
+          "concept-logo-1.png (Logo for CORS Error)"
+        ]
+      },
+      "error_404": {
+        "_description": "404 Not Found error page.",
+        "files": [
+          "concept-logo-1-transparent.png (Transparent Logo for 404 Not Found)",
+          "concept-logo-1.png (Logo for 404 Not Found)"
+        ]
+      }
     }
   }
+}
 }
