@@ -7,15 +7,15 @@
       "mongodb": {
         "_description": "Icons and logos representing MongoDB, a NoSQL database.",
         "files": [
-          "mongodb-icon-1-transparent.png (Transparent icon for MongoDB)",
-          "mongodb-icon-1.png (Standard icon for MongoDB)"
+          "concept-icon-1-transparent.png (Transparent icon for MongoDB)",
+          "concept-icon-1.png (Standard icon for MongoDB)"
         ]
       },
       "mysql": {
         "_description": "Icons and logos representing MySQL, a relational database management system.",
         "files": [
-          "mysql-logo-1-transparent.png (Transparent logo for MySQL)",
-          "mysql-logo-1.png (Standard logo for MySQL)"
+          "concept-logo-1-transparent.png (Transparent logo for MySQL)",
+          "concept-logo-1.png (Standard logo for MySQL)"
         ]
       }
     },
