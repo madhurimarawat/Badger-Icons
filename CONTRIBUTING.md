@@ -5,15 +5,17 @@ Thank you for contributing to the **Badger-Icons** project! Your support helps e
 ## 📝 Table of Contents  
 
 1. [📌 How You Can Contribute](#-how-you-can-contribute)  
-   - [1️⃣ Share This Project](#1%EF%B8%8F-share-this-project)  
-   - [2️⃣ Suggest New Categories or Designs](#2%EF%B8%8F-suggest-new-categories-or-designs)  
-   - [3️⃣ Add New Icons or Logos](#3%EF%B8%8F-add-new-icons-or-logos)  
-   - [4️⃣ Update the Website](#4%EF%B8%8F-update-the-website)  
-   - [5️⃣ Show Off Your Usage](#5%EF%B8%8F-show-off-your-usage)  
-   - [6️⃣ Become a Contributor](#6%EF%B8%8F-become-a-contributor)  
-   - [7️⃣ Modifying `index.html`](#7%EF%B8%8F-modifying-indexhtml)  
+   - [1️⃣ Share This Project](#--share-this-project)  
+   - [2️⃣ Suggest New Categories or Designs](#2-suggest-new-categories-or-designs)  
+   - [3️⃣ Add New Icons or Logos](#3-add-new-icons-or-logos)  
+   - [4️⃣ Update the Website](#4-update-the-website)  
+   - [5️⃣ Show Off Your Usage](#5-show-off-your-usage)  
+   - [6️⃣ Become a Contributor](#6-become-a-contributor)  
+   - [7️⃣ Modifying `index.html`](#7-modifying-indexhtml)  
 
 2. [📢 Issues & Discussions](#-issues--discussions)  
+
+3. [✨ Try Your Own Icon Styling!](#-try-your-own-icon-styling)
 
 ---
 
@@ -118,5 +120,20 @@ If you are editing `index.html`, **update these sections**:
 
 ## 📢 Issues & Discussions  
 If you have any questions or run into issues, feel free to start a [discussion](https://github.com/madhurimarawat/Badger-Icons/discussions) or open an [issue](https://github.com/madhurimarawat/Badger-Icons/issues).  
+
+---
+
+## ✨ **Try Your Own Icon Styling!**  
+
+We’ve included a sample GitHub logo styled using HTML and SVG! 🎨  
+Want to try it with your **favorite icon**?  
+
+🛠️ Visit the following example files to learn more:
+- [`Github-Icon-Styled.html`](Github-Icon-Styled.html)  
+- [`SVG Description and Links.html`](SVG%20Description%20and%20Links.html)  
+
+💬 These files include **comments in the code** to help you understand how it works. 
+
+Feel free to create your **own version** using any icon you love, and contribute it back to the project! 😄  
 
 Happy contributing! 🎨🚀
