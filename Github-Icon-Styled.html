@@ -1,0 +1,63 @@
+<!-- 
+  SVG Visual: Dual Logo Display with Themed Gradient Fill
+  Author: Madhurima Rawat
+  Repository: https://github.com/madhurimarawat/Badger-Icons
+
+  Description:
+  This SVG features two circular icon holders with beautiful gradients.
+  The left circle uses a dashed stroke, while the right one uses a solid stroke.
+  Each contains a GitHub logo for demonstration purposes.
+  The gradient blend brings a soft coral-to-lavender vibe.
+
+  🌟 Do visit this repo and add your own faculty-styled logo! 🌟
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Badger Icons Showcase</title>
+    <style>
+        /* Apply full-page gradient background */
+        body {
+            margin: 0;
+            background: linear-gradient(to right, #D3F1E7, #FBE8D3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+
+    <svg width="540" height="270" viewBox="0 0 540 270" xmlns="http://www.w3.org/2000/svg">
+        <!-- Define a smooth multi-tone gradient transitioning through coral, mint, and lavender tones -->
+        <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#FFC5B2; stop-opacity:1" /> <!-- Soft Coral Start -->
+                <stop offset="25%" style="stop-color:#FFDAC1; stop-opacity:1" /> <!-- Lighter Coral Blend -->
+                <stop offset="50%" style="stop-color:#C5F4E0; stop-opacity:1" /> <!-- Fresh Mint Middle -->
+                <stop offset="70%" style="stop-color:#D4C5F9; stop-opacity:1" /> <!-- Lavender Blend -->
+                <stop offset="100%" style="stop-color:#FFB5A7; stop-opacity:1" /><!-- Coral Pink Finish -->
+            </linearGradient>
+        </defs>
+
+        <!-- Left Circle: Dashed Outline with Gradient Fill -->
+        <circle cx="135" cy="135" r="95" fill="url(#gradient)" stroke="#222" stroke-width="3" stroke-dasharray="8,5" />
+        <!-- Left Icon Image (GitHub) -->
+        <image x="70" y="70" width="130" height="130"
+            href="https://logos-download.com/wp-content/uploads/2016/09/GitHub_logo.png" />
+
+        <!-- Right Circle: Solid Outline with Gradient Fill -->
+        <circle cx="405" cy="135" r="95" fill="url(#gradient)" stroke="#222" stroke-width="3" />
+        <!-- Right Icon Image (GitHub) -->
+        <image x="340" y="70" width="130" height="130"
+            href="https://logos-download.com/wp-content/uploads/2016/09/GitHub_logo.png" />
+    </svg>
+
+</body>
+
+</html>
