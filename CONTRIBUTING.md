@@ -6,12 +6,12 @@ Thank you for contributing to the **Badger-Icons** project! Your support helps e
 
 1. [📌 How You Can Contribute](#-how-you-can-contribute)  
    - [1️⃣ Share This Project](#share-this-project)  
-   - [2️⃣ Suggest New Categories or Designs](#-suggest-new-categories-or-designs)  
-   - [3️⃣ Add New Icons or Logos](#3-add-new-icons-or-logos)  
-   - [4️⃣ Update the Website](#4-update-the-website)  
-   - [5️⃣ Show Off Your Usage](#5-show-off-your-usage)  
-   - [6️⃣ Become a Contributor](#6-become-a-contributor)  
-   - [7️⃣ Modifying `index.html`](#7-modifying-indexhtml)  
+   - [2️⃣ Suggest New Categories or Designs](#suggest-new-categories-or-designs)  
+   - [3️⃣ Add New Icons or Logos](#add-new-icons-or-logos)  
+   - [4️⃣ Update the Website](#update-the-website)  
+   - [5️⃣ Show Off Your Usage](#show-off-your-usage)  
+   - [6️⃣ Become a Contributor](#become-a-contributor)  
+   - [7️⃣ Modifying `index.html`](#modifying-indexhtml)  
 
 2. [📢 Issues & Discussions](#-issues--discussions)  
 
