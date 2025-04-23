@@ -26,9 +26,12 @@ Thank you for contributing to the **Badger-Icons** project! Your support helps e
 ### 1️⃣ Share This Project  
 Spread the word! Share this project on social media, with friends, or in your developer community. More visibility means more contributors and better icons! 💡  
 
+<a name="suggest-new-categories-or-designs"></a>
+
 ### 2️⃣ Suggest New Categories or Designs  
 Got ideas for new categories? Open an [issue](https://github.com/madhurimarawat/Badger-Icons/issues) and share your thoughts!  
 
+<a name="add-new-icons-or-logos"></a>
 ### 3️⃣ Add New Icons or Logos  
 Follow these steps to contribute new icons:  
 
@@ -77,18 +80,22 @@ Follow these steps to contribute new icons:
      - `concept-icon-2.png`, `concept-icon-2-transparent.png`  
 3. **Update the JSON File**  
 4. **Update the README Table**  
-5. **Submit a Pull Request (PR)**  
-
+5. **Submit a Pull Request (PR)**
+ 
+<a name="update-the-website"></a>
 ### 4️⃣ Update the Website  
 If adding a new category, edit **index.html** and update the description. Also, update the README file.  
 
+<a name="show-off-your-usage"></a>
 ### 5️⃣ Show Off Your Usage  
 Have you used **Badger-Icons** in your project? Add your showcase to `README.md`!  
 [Submit your usage](https://github.com/madhurimarawat/Badger-Icons/issues).  
 
+<a name="become-a-contributor"></a>
 ### 6️⃣ Become a Contributor  
 If you contribute icons, logos, or suggestions, we’ll add your name to the **Contributors** section!  
 
+<a name="modifying-indexhtml"></a>
 ### 7️⃣ Modifying `index.html`  
 If you are editing `index.html`, **update these sections**:  
 
