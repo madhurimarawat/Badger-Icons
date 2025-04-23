@@ -21,6 +21,8 @@ Thank you for contributing to the **Badger-Icons** project! Your support helps e
 
 ## 📌 How You Can Contribute  
 
+<a name="share-this-project"></a>
+
 ### 1️⃣ Share This Project  
 Spread the word! Share this project on social media, with friends, or in your developer community. More visibility means more contributors and better icons! 💡  
 
