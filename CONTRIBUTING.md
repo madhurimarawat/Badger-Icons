@@ -5,7 +5,7 @@ Thank you for contributing to the **Badger-Icons** project! Your support helps e
 ## 📝 Table of Contents  
 
 1. [📌 How You Can Contribute](#-how-you-can-contribute)  
-   - [1️⃣ Share This Project](#-share-this-project)  
+   - [1️⃣ Share This Project](#share-this-project)  
    - [2️⃣ Suggest New Categories or Designs](#-suggest-new-categories-or-designs)  
    - [3️⃣ Add New Icons or Logos](#3-add-new-icons-or-logos)  
    - [4️⃣ Update the Website](#4-update-the-website)  
