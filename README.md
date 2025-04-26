@@ -65,9 +65,6 @@ A collection of beautifully styled icons and logos for job roles, tools, and pro
   <a href="https://github.com/madhurimarawat/Badger-Icons/watchers">
     <img src="https://img.shields.io/github/watchers/madhurimarawat/Badger-Icons?color=%23F5B041&label=Watchers&labelColor=%23D68910&style=for-the-badge&logo=github" alt="GitHub Watchers">
   </a>
-
-  <!-- Visitors Count -->
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/madhurimarawat/Badger-Icons&count_bg=%23FF6B8B&title_bg=%235A9DF9&icon=github.svg&icon_color=%23FFFFFF&title=Visitors&edge_flat=true" alt="Visitors">
 </p>
 
 <p align="center">
