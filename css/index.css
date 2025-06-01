@@ -2,7 +2,7 @@
 *********************************************************************************************
 * File: index.css
 * Author: Madhurima Rawat
-* Date: February 20, 2025
+* Date: June 1, 2025
 * Description: Styling file for the Badger-Icons platform, enhancing UI with pastel color 
 *              gradients, responsive layouts, and smooth animations. The design maintains a 
 *              clean, modern aesthetic while ensuring accessibility and usability across devices.
@@ -260,6 +260,90 @@ body {
         height: 250px;
         /* Smaller height for mobile */
     }
+}
+
+/* ========================= */
+/* 🙌 THANK YOU SECTION */
+/* ========================= */
+
+/* Styles for the Thank You section container */
+#thank-you {
+    text-align: center;
+    /* Center-align all content */
+    padding: 20px;
+    /* Add padding around the section */
+    background-color: #f1f1f1;
+    /* Light grey background color */
+}
+
+/* Styles for the contact links container inside Thank You */
+#thank-you .contact {
+    text-align: center;
+    /* Center-align contact links */
+    padding: 10px;
+    /* Padding inside the contact div */
+    color: white;
+    /* Text color set to white (can be overridden by links) */
+}
+
+/* Override link colors inside the contact section */
+#thank-you .contact a {
+    color: black;
+    /* Make all links black */
+    margin-right: 8px;
+    /* Add spacing between links */
+    text-decoration: none;
+    /* Remove underline */
+    font-weight: 500;
+    /* Medium font weight */
+    transition: color 0.3s ease;
+    /* Smooth color transition on hover */
+}
+
+/* Add hover effect for contact links */
+#thank-you .contact a:hover {
+    color: #6cb2eb;
+    /* Change link color on hover to a nice blue */
+}
+
+/* Additional spacing between icons and text in links */
+#thank-you .contact a i {
+    margin-right: 5px;
+    /* Space between icon and text */
+    vertical-align: middle;
+    /* Align icons nicely with text */
+}
+
+/* Style for the "Visit on GitHub" button */
+#thank-you .tool-button-2 {
+    display: inline-block;
+    /* Make it like a button/link */
+    margin-top: 15px;
+    /* Space above the button */
+    padding: 10px 20px;
+    /* Padding inside button */
+    background-color: #24292e;
+    /* GitHub dark background color */
+    color: white;
+    /* White text color */
+    text-decoration: none;
+    /* No underline */
+    border-radius: 5px;
+    /* Rounded corners */
+    font-weight: 600;
+    /* Bold text */
+    transition: background-color 0.3s ease;
+    /* Smooth hover effect */
+}
+
+/* Hover effect for the GitHub button */
+#thank-you .tool-button-2:hover {
+    background-color: #444c56;
+    /* Slightly lighter on hover */
+    color: bisque;
+    /* Text Color */
+    text-decoration: underline;
+    /* Underline */
 }
 
 /* ========================= */
