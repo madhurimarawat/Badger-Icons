@@ -43,9 +43,11 @@ Follow these steps to contribute new icons:
    - A **plain** version (with a solid background).  
 3. **Save the Icons & Logos in PNG Format**:  
    - Name files properly (e.g., `concept-icon-1.png`, `concept-icon-1-transparent.png`).  
-4. **Update the JSON File**:  
-   - Each category should have a JSON file inside its folder (e.g., `assets/new_category/icons.json`).  
-   - The JSON file should include:  
+4. **Update the JSON File**:
+
+   * Each category should have a JSON file inside its folder (e.g., `assets/new_category/icons.json`).
+
+* The JSON file should include:
 
 ```json
 {
@@ -89,8 +91,7 @@ Follow these steps to contribute new icons:
 }
 ```
 
-> [!IMPORTANT]
->  **⚠️ Warning:**
+> [!WARNING]
 > Please **do NOT nest subfolders inside subfolders**.
 > You may have multiple subfolders inside a folder (e.g., `databases` → `mongodb`, `mysql`),
 > but inside those subfolders (like `mongodb`), there **should be no further nested folders**.
@@ -108,7 +109,32 @@ Follow these steps to contribute new icons:
 
 * ✅ For transparent versions of icons or logos, use `-transparent` suffix in the filename
   *Example:* `concept-logo-1-transparent.png (Transparent logo for XYZ)`
-   
+
+**Just run** the script here:
+   [Directory\_Traverse\_JSON\_Preparation.py](https://github.com/madhurimarawat/Badger-Icons/blob/main/Directory_Traverse_JSON_Preparation.py)
+
+   > [!NOTE]
+   > When adding new categories, just update the `CUSTOM_DESCRIPTIONS` dictionary here in the script:
+
+   ```python
+   # Dictionary of custom descriptions for known folders 📝
+   CUSTOM_DESCRIPTIONS = {
+       "databases": "Icons and logos for different database technologies.",
+       "mongodb": "Icons and logos representing MongoDB, a NoSQL database.",
+       "mysql": "Icons and logos representing MySQL, a relational database management system.",
+       "greetings": "Icons and logos for different greetings.",
+       "thank_you": "Icons and logos representing the thank you greeting.",
+       # Add new categories here as needed...
+   }
+   ```
+
+The rest of the script will handle everything automatically—scanning folders, generating descriptions, and creating the JSON files accordingly.
+🔍 **For more detailed explanation**, including **docstrings and inline comments**, visit the script file here: [Directory\_Traverse\_JSON\_Preparation.py](https://github.com/madhurimarawat/Badger-Icons/blob/main/Directory_Traverse_JSON_Preparation.py)
+
+> [!CAUTION]
+> Make sure to update the JSON by **running the script** or updating it **manually**.
+> Otherwise, the website will not display your new icons or changes correctly.
+
 5. **Update the README File**:  
    - Add a new row in the respective section (`Job Roles`, `Programming Languages`, etc.).  
 6. **Submit a Pull Request (PR)**:  
@@ -138,7 +164,7 @@ Have you used **Badger-Icons** in your project? Add your showcase to `README.md`
 
 <a name="become-a-contributor"></a>
 ### 6️⃣ Become a Contributor  
-If you contribute icons, logos, or suggestions, we’ll add your name to the **Contributors** section!  
+If you contribute icons, logos, or suggestions, I’ll add your name to the **Contributors** section!  
 
 <a name="modifying-indexhtml"></a>
 ### 7️⃣ Modifying `index.html`  
@@ -174,6 +200,10 @@ If you are editing `index.html`, **update these sections**:
 
 ## 📢 Issues & Discussions
 
+> [!TIP]  
+> Questions or ideas? Open an [issue](https://github.com/madhurimarawat/Badger-Icons/issues) or start a [discussion](https://github.com/madhurimarawat/Badger-Icons/discussions).  
+> No time? Share your files, I’ll add and credit you.  
+
 If you have any questions or run into issues, feel free to start a [discussion](https://github.com/madhurimarawat/Badger-Icons/discussions) or open an [issue](https://github.com/madhurimarawat/Badger-Icons/issues).
 
 If you don’t have time to add your icons or logos yourself, just drop your files in an issue or discussion, and I will add them for you.
@@ -188,7 +218,7 @@ If you do not want to do this here, message me on LinkedIn: [https://www.linkedi
 
 ## ✨ **Try Your Own Icon Styling!**  
 
-We’ve included a sample GitHub logo styled using HTML and SVG! 🎨  
+I’ve included a sample GitHub logo styled using HTML and SVG! 🎨  
 Want to try it with your **favorite icon**?  
 
 🛠️ Visit the following example files to learn more:
