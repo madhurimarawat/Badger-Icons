@@ -171,9 +171,7 @@
         "concept-logo-2.png (Logo for active status)"
       ]
     },
-    "error": {
-      "_description": "Error pages and their respective icons.",
-      "403_forbidden": {
+  "403_forbidden": {
         "_description": "403 Forbidden error page.",
         "files": [
           "concept-logo-1-transparent.png (Transparent Logo for 403 Forbidden)",
@@ -203,5 +201,4 @@
       }
     }
   }
-}
 }
