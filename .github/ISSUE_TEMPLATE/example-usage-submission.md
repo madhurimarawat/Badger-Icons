@@ -25,7 +25,7 @@ _(e.g., "Used the Data Analyst icon in the profile section of my portfolio.")_
 ---
 
 ### 📢 **Want to Share More?**  
-We’d love to feature your project in the [Example Usage](#) section! 🚀  
+We’d love to feature your project in the [Example Usage](#https://github.com/madhurimarawat/Badger-Icons) section! 🚀  
 
 ### 🛠 **Want to Contribute?**  
 If you want to contribute icons/logos yourself, check out our [Contributing Guidelines](https://github.com/madhurimarawat/Badger-Icons/blob/main/CONTRIBUTING.md) and submit a pull request! 🎨🔧
