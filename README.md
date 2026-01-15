@@ -285,5 +285,5 @@ This section provides a glimpse into the **Badger Icons** interface, showcasing 
 - Drop a 🌟 if you find this repository useful.<br><br>
 - If you have any doubts or suggestions, feel free to reach me.<br><br>
 📫 How to reach me:  &nbsp; [![Linkedin Badge](https://img.shields.io/badge/-madhurima-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/madhurima-rawat/) &nbsp; &nbsp;
-<a href ="mailto:rawatmadhurima@gmail.com"><img src="https://github.com/madhurimarawat/Machine-Learning-Using-Python/assets/105432776/b6a0873a-e961-42c0-8fbf-ab65828c961a" height=35 width=30 title="Mail Illustration" alt="Mail Illustration📫" > </a><br><br>
+<a href ="mailto:rawatmadhurima4@gmail.com"><img src="https://github.com/madhurimarawat/Machine-Learning-Using-Python/assets/105432776/b6a0873a-e961-42c0-8fbf-ab65828c961a" height=35 width=30 title="Mail Illustration" alt="Mail Illustration📫" > </a><br><br>
 - **Contribute and Discuss:** Feel free to open <a href= "https://github.com/madhurimarawat/Badger-Icons/issues">issues 🐛</a>, submit <a href = "https://github.com/madhurimarawat/Badger-Icons/pulls">pull requests 🛠️</a>, or start <a href = "https://github.com/madhurimarawat/Badger-Icons/discussions">discussions 💬</a> to help improve this repository!
